@@ -39,6 +39,11 @@ app.post('/api/ask', async (req, res) => {
   }
 });
 
+app.get('/',(req,res)=>{
+    res.send(" API working")
+})
+
+
 
 // async function main() {
 
